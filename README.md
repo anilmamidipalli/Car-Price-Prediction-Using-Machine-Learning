@@ -43,3 +43,8 @@ The best-performing model is selected based on evaluation results. Hyperparamete
 ##### Based On MAE,MSE,RMSE,R-Squared----> Random Forest Regressor (With Out Parameter)
 ##### Based On F1 Score----->Decision Tree
 ##### Based On MAE,MSE,RMSE,R-Squared---->XGBoost(With Parameter)
+
+# Conclusion
+The car price prediction project successfully demonstrated the use of supervised machine learning techniques to estimate car prices based on key attributes such as brand, model, fuel type, and mileage. After thorough data preprocessing, EDA, feature selection, and model training, multiple algorithms were evaluated using standard regression metrics.
+Random Forest Regressor (without parameter tuning) and XGBoost (with tuned parameters) provided the most reliable performance based on MAE, MSE, RMSE, and R², indicating strong predictive capability. Decision Tree showed competitive results based on the F1 Score but with relatively less stability compared to ensemble models.
+This project highlights the importance of proper data preprocessing, feature engineering, and model selection for building accurate predictive models. Such a system can enhance market transparency, help buyers and sellers negotiate fairly, and provide more accurate pricing insights for the automotive industry.
