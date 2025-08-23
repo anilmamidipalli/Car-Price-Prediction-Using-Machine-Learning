@@ -37,3 +37,9 @@ The trained models are evaluated using standard regression metrics such as:
 •	F1 Score
 # 6.	Model Selection and Optimization
 The best-performing model is selected based on evaluation results. Hyperparameter tuning (using Grid Search or Random Search) is applied to further optimize its performance and reduce errors.
+
+
+# Result:
+##### Based On MAE,MSE,RMSE,R-Squared----> Random Forest Regressor (With Out Parameter)
+##### Based On F1 Score----->Decision Tree
+##### Based On MAE,MSE,RMSE,R-Squared---->XGBoost(With Parameter)
